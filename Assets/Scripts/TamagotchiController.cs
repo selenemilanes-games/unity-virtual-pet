@@ -222,6 +222,8 @@ public class TamagotchiController : MonoBehaviour
     {
         while (true && statsTamagotchi.haHatcheado)
         {
+            yield return new WaitForSeconds(m_tiempoHambre);
+            
             if (statsTamagotchi.hambre > 0)
             {
                 modificarHambre(-1);
@@ -230,7 +232,6 @@ public class TamagotchiController : MonoBehaviour
             {
                 comienzaMuerte();
             }
-            yield return new WaitForSeconds(m_tiempoHambre);
         }
     }
 
@@ -250,6 +251,8 @@ public class TamagotchiController : MonoBehaviour
     {
         while (true && statsTamagotchi.haHatcheado)
         {
+            yield return new WaitForSeconds(m_tiempoFelicidad);
+            
             if (statsTamagotchi.felicidad > 0)
             {
                 modificarFelicidad(-1);
@@ -258,7 +261,6 @@ public class TamagotchiController : MonoBehaviour
             {
                 comienzaMuerte();
             }
-            yield return new WaitForSeconds(m_tiempoFelicidad);
         }
     }
 
@@ -281,7 +283,7 @@ public class TamagotchiController : MonoBehaviour
 
     private void comienzaMuerte()
     {
-        print("COMIENZA MUERTE");
+        //print("COMIENZA MUERTE");
         statsTamagotchi.tiempoTranscurridoMuerte = new TimeSpan(0, 0, 0);
         statsTamagotchi.comienzaTiempoMuerte = true;
         StartCoroutine(cooldownMuerte());

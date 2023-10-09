@@ -21952,7 +21952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5999895638424592260, guid: 647eb34a8572e7e4bade734e2189bb46, type: 3}
       propertyPath: m_tiempoPoop
-      value: 180
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5999895638424592260, guid: 647eb34a8572e7e4bade734e2189bb46, type: 3}
       propertyPath: m_pooldePoops
@@ -21964,11 +21964,11 @@ PrefabInstance:
       objectReference: {fileID: 1830664482}
     - target: {fileID: 5999895638424592260, guid: 647eb34a8572e7e4bade734e2189bb46, type: 3}
       propertyPath: m_tiempoHambre
-      value: 600
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5999895638424592260, guid: 647eb34a8572e7e4bade734e2189bb46, type: 3}
       propertyPath: m_tiempoMuerte
-      value: 300
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5999895638424592260, guid: 647eb34a8572e7e4bade734e2189bb46, type: 3}
       propertyPath: m_tiempoHatching
@@ -21976,11 +21976,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5999895638424592260, guid: 647eb34a8572e7e4bade734e2189bb46, type: 3}
       propertyPath: m_tiempoSuciedad
-      value: 300
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5999895638424592260, guid: 647eb34a8572e7e4bade734e2189bb46, type: 3}
       propertyPath: m_tiempoFelicidad
-      value: 600
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7144758676202170201, guid: 647eb34a8572e7e4bade734e2189bb46, type: 3}
       propertyPath: m_Name
