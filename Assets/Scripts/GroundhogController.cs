@@ -11,7 +11,7 @@ public class GroundhogController : MonoBehaviour
 
     private void OnMouseDown()
     {
-        monedasConseguidas.Invoke(1);
+        monedasConseguidas.Invoke(3);
         this.gameObject.SetActive(false);
 
     }

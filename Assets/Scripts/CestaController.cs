@@ -55,7 +55,7 @@ public class CestaController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Fruta")
         {
-            monedasConseguidas.Invoke(1);
+            monedasConseguidas.Invoke(3);
             monedaSound.Play();
             Destroy(collision.gameObject);
         }
