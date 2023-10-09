@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/SelectEgg.unity
+    guid: a8d6411d618eb5142bcc0d8f6bed4920
+  - enabled: 1
+    path: Assets/Scenes/Tamagotchi.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: e36cfcdddd1d68644adba94fe402ddb3
+  - enabled: 1
+    path: Assets/Scenes/MinigameFruits.unity
+    guid: 58a2b5034e97e0b4882b5e5378258de3
+  - enabled: 1
+    path: Assets/Scenes/MinigameGroundhog.unity
+    guid: 3cb8cb5e2807d3b4d95cb18ea18038c1
   m_configObjects: {}

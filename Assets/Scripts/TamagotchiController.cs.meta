@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 7fcdeca80e11465448494fa80d6294cc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - statsTamagotchi: {fileID: 11400000, guid: 84d15760726ac934eba5e3779bc6c9c0, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd491d39adfefed4097c1f18c56a6d61, type: 3}
+  m_Name: TamagotchiSO
+  m_EditorClassIdentifier: 
+  colorHuevo: GreenEgg
+  maxHambre: 6
+  maxFelicidad: 16
+  hambre: 4
+  felicidad: 14
+  gotchis: 0
+  m_animators:
+  - {fileID: 9100000, guid: a97abe55e6fa4e640a87b7efef16c904, type: 2}
+  - {fileID: 9100000, guid: 94cd294fc12be924d8cc84636a2e3b9a, type: 2}
+  - {fileID: 9100000, guid: 6165e41dce1f25047a4f43dcd390b80a, type: 2}
+  - {fileID: 9100000, guid: 7ae6bb60699032c408ca6bfaec88d7d7, type: 2}
+  - {fileID: 9100000, guid: 3ab90a9d2c4ce0a4f90e700da83536ed, type: 2}
+  animatorActual: {fileID: 9100000, guid: 7ae6bb60699032c408ca6bfaec88d7d7, type: 2}
+  haHatcheado: 1
+  estaSucio: 1
+  comienzaTiempo: 1
+  comienzaTiempoMuerte: 0
