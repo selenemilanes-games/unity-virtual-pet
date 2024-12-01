@@ -35,16 +35,16 @@ public class CestaController : MonoBehaviour
             //Obtenemos la posicion donde hacemos touch
             Vector2 pointerPosition = m_PointerPosition.ReadValue<Vector2>();
 
-            if (pointerPosition.x >= 0 && pointerPosition.x < 305)
+            if (pointerPosition.x >= 0 && pointerPosition.x < 853)
             {
                 this.gameObject.transform.position = new Vector2(-6.78f, -2.55f);
             }
-            else if (pointerPosition.x >= 305 && pointerPosition.x < 610)
+            else if (pointerPosition.x >= 305 && pointerPosition.x < 1706)
             {
                 this.gameObject.transform.position = new Vector2(0.67f, -2.55f);
 
             }
-            else if (pointerPosition.x >= 306 && pointerPosition.x < 915)
+            else if (pointerPosition.x >= 306 && pointerPosition.x < 2559)
             {
                 this.gameObject.transform.position = new Vector2(5.34f, -2.55f);
             }
