@@ -15,9 +15,9 @@ MonoBehaviour:
   colorHuevo: GreenEgg
   maxHambre: 6
   maxFelicidad: 16
-  hambre: 4
-  felicidad: 14
-  gotchis: 0
+  hambre: 2
+  felicidad: 2
+  gotchis: 100
   m_animators:
   - {fileID: 9100000, guid: a97abe55e6fa4e640a87b7efef16c904, type: 2}
   - {fileID: 9100000, guid: 94cd294fc12be924d8cc84636a2e3b9a, type: 2}
